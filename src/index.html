@@ -4,11 +4,29 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+   
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <img src="imagens/feminista.png" alt="Logo" id="img-logo">
+      <header class="container-header">
+        <h1>VN QFEJEP EF BKVEB! (Deslocamento 1)</h1>
+        <p>NVMIFS, TF WPDF FTUJWFS QBTTBOEP QPS BMHVN UJQP EF WJPMFODJB TFKB FMB GJTJDB PV WFSCBM F FTUJWFS DPN NFEP EF GBMBS DSJQUPHSBGF VNB NFOTBHFN F FOWJF QBSB BMHVFN FN RVFN DPOGJF PV QBSB OPT(Descolamento 1)!</p>
+        <p id="paragrafo">Digite com LETRAS MAIÚSCULAS, sem números ou outros caracteres!</p> 
+        <p>Escolha um deslocamento para cifrar ou decifrar sua mensagem.</p>
+        <input type="number" id="desloc" placeholder="Deslocamento" min="1">
+      </header>
+
+      <section  class="container-main">
+        <div class="parte-um">
+          <textarea name="textInput" id="textInput" cols="35" rows="20" placeholder="Digite o texto à ser criptografado ou descriptografado!"></textarea>
+        </div>
+        <div class="parte-dois">
+          <textarea id="resultado-encode" cols="30" rows="8" placeholder="Texto criptografado"></textarea>
+          <button id="btn-encriptar">Criptografar</button>
+          <textarea id="resultado-decode" cols="30" rows="8" placeholder="Texto descriptografado"></textarea>
+          <input type="button" value="Descriptografar" id="btn-descriptografar">
+        </div>
+      </section>
     <script src="index.js" type="module"></script>
   </body>
 </html>
