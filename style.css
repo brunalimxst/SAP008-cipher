@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(./imagens/backg.png);
+    background-position: center;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -80px;
+    padding: 20px;
+}
+
+.container-header h1 {
+    font-size: 25px;
+    color: #4e043c;
+}
+
+.container-header p {
+    width: 70%;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #75085a;
+}
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-um {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.parte-um h4 {
+    text-align: center;
+    align-items: center;
+    justify-content: center ;
+}
+
+#textInput {
+    background-color: #F2BFE6;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+    height: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#textInput:focus , #resultado-texto:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+}
+
+#textInput::-webkit-input-placeholder , #resultado-texto::-webkit-input-placeholder{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parte-dois {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-top: 8px;
+    border: none;
+}
+
+#resultado-encode , #resultado-decode {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: #F090D8;
+    border: none;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#btn-encriptar , #btn-descriptografar {
+    width: 60%;
+    height: 30px;
+    align-self: center;
+    background-color: #701459;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.parte-um #deslomento {
+    background-color: #701459;
+    color: #701459;
+}
+
+#desloc {
+    width: 150px;
+    background-color: #F090D8;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#paragrafo {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.733);
+}
