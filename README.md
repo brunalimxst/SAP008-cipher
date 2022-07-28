@@ -10,7 +10,7 @@ Pensei em criar uma aplicação web que cifre e decifre mentes de mulheres em si
 
 ## Como ele funciona ⚙️
 
-A ideia foi deixá-lo o mais simples e intuitivo possível, o usuário digita a mensagem à ser cifrada ou decifrada, escolhe o deslocamento e possui dois botões, um para cifrar e outro para decifrar.
+A ideia foi deixá-lo o mais simples e intuitivo possível, o usuário digita a mensagem à ser cifrada ou decifrada, escolhe o deslocamento e possui dois botões, um para cifrar e outro para decifrar. Ele ainda n
 
 ## Tecnologias usadas 🛠 
 
@@ -92,6 +92,8 @@ A ideia foi deixá-lo o mais simples e intuitivo possível, o usuário digita a 
 ![Projeto final](./src/imagens/tela1.png)
 
 ## Implementações e melhorias futuras 🚀
+- Permitir a cifragem e decifragem de mais de uma palavra
+- Aceitar caracteres e letras min
 - Permitir que o usuário copie a mensagem
 - Permitir que o usuário encaminhe a mensagem
 - Permitir login e cadastro
