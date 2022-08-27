@@ -6,7 +6,7 @@ A [cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é um dos
 
 ## Minha ideia 💡
 
-Pensei em criar uma aplicação web que cifre e decifre mentes de mulheres em situação de vulnerabilidade e maus tratos, que tenham medo de falar o que acontece em suas casas ou ambientes de trabalho, mas que tenham medo, e além dessas mulheres, organizações que possam ajudar essas mulheres também terão acesso à plataforma, assim, se materá uma comunicação segura entre ambas.
+Pensei em criar uma aplicação web que cifre e decifre mensagens de mulheres em situação de vulnerabilidade e maus tratos, que tenham medo de falar o que acontece em suas casas ou ambientes de trabalho, mas que tenham medo, e além dessas mulheres, organizações que possam ajudar essas mulheres também terão acesso à plataforma, assim, se materá uma comunicação segura entre ambas.
 
 ## Como ele funciona ⚙️
 
